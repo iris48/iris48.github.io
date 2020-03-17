@@ -39,24 +39,9 @@
   </entry>
   
   <entry>
-    <title>article title</title>
-    <link href="http://yoursite.com/2020/03/16/article-title/"/>
-    <id>http://yoursite.com/2020/03/16/article-title/</id>
-    <published>2020-03-16T09:47:03.000Z</published>
-    <updated>2020-03-16T09:47:03.057Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/03/16/hello-world/"/>
-    <id>http://yoursite.com/2020/03/16/hello-world/</id>
+    <link href="http://yoursite.com/2020/03/16/xitong/hello-world/"/>
+    <id>http://yoursite.com/2020/03/16/xitong/hello-world/</id>
     <published>2020-03-16T09:31:07.168Z</published>
     <updated>2020-03-17T03:48:13.592Z</updated>
     
