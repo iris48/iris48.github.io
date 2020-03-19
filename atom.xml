@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-17T11:33:45.965Z</updated>
+  <updated>2020-03-19T10:36:46.192Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>For you, my love</title>
+    <link href="http://yoursite.com/2020/03/18/For-you-my-love/"/>
+    <id>http://yoursite.com/2020/03/18/For-you-my-love/</id>
+    <published>2020-03-18T12:14:23.000Z</published>
+    <updated>2020-03-19T10:36:46.192Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我们的第***天。<br><br>跟狗狗，已经没有什么好说的了。下面请允许我用特别 <font color=#376956>矫情</font> 的书写来逗狗狗 :dog: :laughing: 。<br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是我们的第***天。&lt;br&gt;&lt;br&gt;跟狗狗，已经没有什么好说的了。下面请允许我用特别 &lt;font color=#376956&gt;矫情&lt;/font&gt; 的书写来逗狗狗 :dog: :laughing: 。&lt;br&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>iris</title>
