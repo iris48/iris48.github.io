@@ -81,16 +81,19 @@
 
 
 
-<meta name="description" content="这是我们的第***天。跟狗狗，已经没有什么好说的了。下面请允许我用特别 矫情 的书写来逗狗狗 :dog: :laughing: 。">
+<meta name="description" content="写在前面逗狗环节开始啦！哈哈，我想：送狗狗(想办法改成表情？？？)啥好呢？Then, an idea came to me! 我真是个天才，浪漫小天才。So bangbang am I. 准备狗狗的邮箱会在2020年3月？？日？？？准时收到邮件，请下载名为“README.txt”的附件。阅读完“README.txt”后再继续本文下面的阅读。 正文开始下面是一些小小的Tips，可能有用奥（划重点，后">
 <meta property="og:type" content="article">
 <meta property="og:title" content="For you, my love">
 <meta property="og:url" content="http://yoursite.com/2020/03/18/For-you-my-love/index.html">
 <meta property="og:site_name" content="Iris&#39;s blog">
-<meta property="og:description" content="这是我们的第***天。跟狗狗，已经没有什么好说的了。下面请允许我用特别 矫情 的书写来逗狗狗 :dog: :laughing: 。">
+<meta property="og:description" content="写在前面逗狗环节开始啦！哈哈，我想：送狗狗(想办法改成表情？？？)啥好呢？Then, an idea came to me! 我真是个天才，浪漫小天才。So bangbang am I. 准备狗狗的邮箱会在2020年3月？？日？？？准时收到邮件，请下载名为“README.txt”的附件。阅读完“README.txt”后再继续本文下面的阅读。 正文开始下面是一些小小的Tips，可能有用奥（划重点，后">
+<meta property="og:image" content="http://yoursite.com/2020/03/18/For-you-my-love/1.png">
+<meta property="og:image" content="http://yoursite.com/2020/03/18/For-you-my-love/2.png">
 <meta property="article:published_time" content="2020-03-18T12:14:23.000Z">
-<meta property="article:modified_time" content="2020-03-19T10:36:46.192Z">
+<meta property="article:modified_time" content="2020-03-20T09:55:30.936Z">
 <meta property="article:author" content="Iris Lau">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/03/18/For-you-my-love/1.png">
 
 
 
@@ -334,7 +337,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  40
+                  446
                 </span>
               
 
@@ -371,7 +374,32 @@
       
 
       
-        <p>这是我们的第***天。<br><br>跟狗狗，已经没有什么好说的了。下面请允许我用特别 <font color=#376956>矫情</font> 的书写来逗狗狗 :dog: :laughing: 。<br></p>
+        <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>逗狗环节开始啦！<br><br>哈哈，我想：送狗狗(想办法改成表情？？？)啥好呢？Then, an idea came to me! 我真是个天才，浪漫小天才。So bangbang am I.<br></p>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>狗狗的邮箱会在2020年3月？？日？？？准时收到邮件，请下载名为“README.txt”的附件。阅读完“README.txt”后再继续本文下面的阅读。<br></p>
+<h3 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h3><p>下面是一些小小的Tips，可能有用奥（划重点，后面会考）</p>
+<ol>
+<li>OpenSSL<br><br>OpenSSL是一个SSL协议的开源实现，采用C语言作为开发语言，具备了跨平台的能力，支持Unix/Linux、Windows、Mac OS等多种平台。目前，OpenSSL已经得到了广泛的应用，许多类型的软件中的安全部分都使用了OpenSSL的库，如VOIP的OpenH323协议、Apache服务器、Linux安全模块等等。OpenSSL整个软件包大概可以分成三个主要的功能部分：<ul>
+<li>密码算法库</li>
+<li>SSL协议库</li>
+<li>应用程序</li>
+</ul>
+</li>
+</ol>
+<ol start="2">
+<li>AES128<br><br>不重要，就是凑章节的，狗狗对AES过程肯定脱口而出了。为了多凑几行，看上去好看一点，就随便拉两个链接上来</li>
+</ol>
+<ul>
+<li><a href="https://tosc.iacr.org/index.php/ToSC/article/view/8314" target="_blank" rel="noopener">Quantum Security Analysis of AES</a></li>
+<li><a href="https://eprint.iacr.org/2020/213" target="_blank" rel="noopener">Finding Hash Collisions with Quantum Computers by Using Differential Trails with Smaller Probability than Birthday Bound</a></li>
+</ul>
+<ol start="3">
+<li>OpenSSL+AES128加解密<br><br>加密<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openssl enc -aes-128-ecb -e -in myfile -out myfile-aes</span><br></pre></td></tr></table></figure>
+解密<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openssl enc -aes-128-ecb -d -in myfile-aes -out myfile</span><br></pre></td></tr></table></figure>
+下面贴图表示亲测有效呢，您这边是否考虑试试呢，亲？</li>
+</ol>
+<p><img src="/2020/03/18/For-you-my-love/1.png" alt="凑数图1"></p>
+<p><img src="/2020/03/18/For-you-my-love/2.png" alt="凑数图2"></p>
+<h3 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h3><p>由于AES加密算法十分经典，在网络上我们很容易可以找到在线AES加解密的页面。然而，作为网络空间安全专业的研究生，我们是绝对不会直接在网站上提交自己的文件给别人解密是吧，狗狗。</p>
 
       
     </div>
@@ -414,6 +442,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/03/20/To-Dog/" rel="prev" title="To Dog">
+                To Dog <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -492,8 +524,17 @@ var jiathis_config={
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -512,7 +553,7 @@ var jiathis_config={
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -582,6 +623,22 @@ var jiathis_config={
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#写在前面"><span class="nav-number">1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#准备"><span class="nav-number">2.</span> <span class="nav-text">准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#正文开始"><span class="nav-number">3.</span> <span class="nav-text">正文开始</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#写在后面"><span class="nav-number">4.</span> <span class="nav-text">写在后面</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -622,7 +679,7 @@ var jiathis_config={
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共192字</span>
+  <span class="post-count">博客全站共598字</span>
 </div>
 
         
